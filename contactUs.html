@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <!--The URL that processes the form submission  <link rel="stylesheet" href="https://devdocs.io/html/element/form">-->
+      <div>
+        <table>
+          <tbody>
+            <strong>
+              <tr>
+                <td><p>gender : </p></td>
+                <td><p>male</p></td>
+                <td><input type="checkbox" /></td>
+                <td><p>female</p></td>
+                <td><input type="radio" /></td>
+              </tr>
+            </strong>
+          </tbody>
+        </table>
+      </div>
+      <hr />
+      <div>
+        <!--post means all inside form is going to be emailed to the action -->
+        <form
+          method="post"
+          action="mailto:patercomunitari@gmail.com"
+          enctype="text/plain"
+        >
+          <label> Email </label>
+          <input type="email" name="yourEmail" required /><input
+            type="submit"
+          />
+      </div>
+      <br />
+      <div>
+          <label>Message</label>
+          <textarea name="yourMessage" id="" cols="30" rows="10"></textarea
+          >
+      </div>
+      <br />
+      <div>
+          <label> Choose File </label>
+          <input type="file" name="yourFile" /><br />
+          <input type="submit" />
+        </form>
+      </div>
+      <hr />
+      <di v>
+        <table cellspacing="10">
+          <tbody>
+            <tr>
+              <td><label> Password </label></td>
+              <td><input type="Password" /><input type="submit" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </di>
+    </form>
+
+    <br />
+    <a href="./index.html">&#9194; Home</a>
+    <a href="./universe.html">&#9194; books, universe and everything</a>
+    <a href="./fan.html">&#9194; fan reviews</a>
+    <a href="./contact.html">&#9194; Contact Me</a>
+    <a href="./tables.html">&#9194; Table</a>
+    <a href="./contactUs.html">Here</a>
+  </body>
+</html>
